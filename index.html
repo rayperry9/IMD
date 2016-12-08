@@ -24,15 +24,16 @@
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	
-	
+
+
+
 	  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -40,8 +41,8 @@
       margin: auto;
   }
 	</style>
-	
-	
+
+
 </head>
 
 <body id="page-top" class="index">
@@ -77,13 +78,12 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li>		
-								
+                    </li>
                 </ul>
-				
-				<form class="navbar-form navbar-left">
+
+				<form class="navbar-form navbar-left" action="index.html#search">
 					  <div class="input-group">
-						<input type="text" class="form-control" placeholder="Search my Cv">
+						<input type="text" name="q" id="tipue_search_input" autocomplete="off" class="form-control" placeholder="Search my Cv">
 						<div class="input-group-btn">
 						  <button class="btn btn-default" type="submit">
 							<i class="glyphicon glyphicon-search"></i>
@@ -91,7 +91,7 @@
 						</div>
 					  </div>
 				</form>
-				
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -100,75 +100,91 @@
 
     <!-- Header -->
     <header>
-		<div class="container">	
-			<div class="row">          
+		<div class="container">
+			<div class="row">
+
 			</div>
-			
-			 
-		
-			<div class="intro-text">	
-			
+
+
+			<div class="intro-text">
+
 			 <img src="img/raymond.JPG"class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
 				<br></br>
-				
+
 			 <ul class="list-inline social-buttons">
 						<li><a href="https://twitter.com/RayPerry9" target="_blank"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="https://www.facebook.com/ray.perry.31" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/ray-perry-b7176094?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
-					
+
 				<br></br>
 			    <div class="intro-lead-in">Career Aim</div>
 				<div class="intro-lead-in">Keen to find a challenging position in a progressive company offering early responsibility and with performance being the criteria for promotion. Focused and goal orientated with a clear vision of future objectives</div>
-               
+
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
 
             </div>
 		</div>
     </header>
-	
-	
-	
-	
+
+<section id="search">
+  <div class="container">
+
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Search Results</h2>
+  </div>
+      </div>
+
+      <div class="row text-center">
+
+<div class="row">
+    <div id="tipue_search_content"></div>
+  </div>
+</div>
+</div>
+</section>
+
+
 	       <!-- IT Skills Section -->
     <section id="services">
 
         <div class="container">
-		
+
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">IT Skills</h2>                
+                    <h2 class="section-heading">IT Skills</h2>
 				</div>
-            </div>			
-			
+            </div>
+
             <div class="row text-center">
-			
+
 			<div class="row" />
-			
+
                 <div class="col-md-4">
 				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#cloud">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Cloud Architecture</h4>
-				  
-					<div id="cloud" class="collapse">	
+
+					<div id="cloud" class="collapse">
                     <p class="text-muted">•	Understanding of Virtualization Technologies</p>
 					</div>
 				</div>
-				
-				
+
+
                 <div class="col-md-4">
 				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#net">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Networking</h4>
-					  
+
 					<div id="net" class="collapse">
                     <p class="text-muted">•	Design build and troubleshoot a network using routers and hubs using related </p>
 					 <p class="text-muted">•	Configure a router using the Cisco IOS command set</p>
@@ -181,15 +197,15 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-slideshare fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Virtualisation</h4>
-					  
+
 					<div id="vir" class="collapse">
                     <p class="text-muted">•	Understanding of Virtualization Technologies including Virtual Box and Vmware Wrokstation</p>
 					<p class="text-muted">•	Can create virtual machines of various operating systems</p>
 					</div>
                 </div>
-				
+
 				</div>
 				<div class="row" />
 
@@ -199,95 +215,95 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Database</h4>
-					  
+
 					<div id="db" class="collapse">
                     <p class="text-muted">•	Can write SQL queries to intermediate level using Oracle 11G</p>
 					<p class="text-muted">•	Can design and create database schemas</p>
 					</div>
                 </div>
-				
-				
+
+
 				<div class="col-md-4">
 				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#web">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Web Design</h4>
-					 
+
 					<div id="web" class="collapse">
                     <p class="text-muted">•	Capable of designing developing websites using HTML and CSS</p>
 					</div>
                 </div>
-				
-				
+
+
 				<div class="col-md-4">
 				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#os">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-windows fa-stack-1x fa-inverse"></i>
                     </span>
-				</button>	
+				</button>
                     <h4 class="service-heading">Operating Systems</h4>
-					  
+
 					<div id="os" class="collapse">
                     <p class="text-muted">•	Competent user of Windows Operating Systems in system administration</p>
 					</div>
                 </div>
-				
+
 				<div/>
             </div>
         </div>
-	
+
     </section>
-	
-	
+
+
 
     <!-- Education Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Education</h2>                    
+                    <h2 class="section-heading">Education</h2>
                 </div>
             </div>
-			
-			
+
+
  <div class="container">
 	<div class="row">
-		
+
         <div role="tabpanel">
-		
-		
-		
+
+
+
             <div class="col-sm-3">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
-				
-				
+
+
                     <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"><img src="img/tab/ITT.jpg"class="img-thumbnail" alt="Cinque Terre" width="150" height="10"></a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab2"  aria-controls="tab2" role="tab" data-toggle="tab"><img src="img/tab/oldbawn.jpg"class="img-thumbnail" alt="Cinque Terre" width="150" height="10"></a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab3"  aria-controls="tab3" role="tab" data-toggle="tab"><img src="img/tab/dominics.jpg"class="img-thumbnail" alt="Cinque Terre" width="150" height="10"></a></li>
-                    
+
                 </ul>
             </div>
-			
-					
-			
+
+
+
             <div class="col-sm-9">
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="tab1">
-                        
+
 						<h4 class="section-heading">2013 - present : Bachelors of Science (Honours) in IT Management</h4>
 						<p>Institute Technology Tallaght, Tallaght, Dublin 24</p>
 						<p>Expect to graduate June 2017</p>
-						
-						<div class="container">						 
+
+						<div class="container">
 						  <div class="container demo">
 
-    
+
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
         <div class="panel panel-default">
@@ -478,24 +494,24 @@
         </div>
 
     </div><!-- panel-group -->
-    
-    
-</div><!-- container --> 
+
+
+</div><!-- container -->
 						</div>
 					</div>
-					
+
                     <div role="tabpanel" class="tab-pane" id="tab2">
-                       
+
 					  <h4 class="section-heading">Old Bawn Community School, Tallaght, Dublin 24</h4>
-					   
+
                     </div>
-					
-					
+
+
                     <div role="tabpanel" class="tab-pane" id="tab3">
-					
+
                      <h4 class="section-heading">St. Dominic’s National School, Tallaght, Dublin 24</h4>
-                   
-                    </div>                    
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -503,9 +519,9 @@
 </div>
         </div>
     </section>
-	
-	
-	
+
+
+
 
     <!-- Work Experience Section -->
     <section id="about">
@@ -513,24 +529,24 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Work Experience</h2>
-                    					
+
 					<div class="container">
-					
-			  
-  						  
-						  
+
+
+
+
 						   <ul class="nav nav-tabs nav-justified">
 								<li class="active"><a data-toggle="tab" href="#home"><font color="black"><h4><i>Sage</i></h4></font></a></li>
 							<li><a data-toggle="tab" href="#menu1"><font color="black"><h4><i>Zara</i></h4></font></a></li>
 							<li><a data-toggle="tab" href="#menu2"><font color="black"><h4><i>Tallaght Auto Parts</i></h4></font></a></li>
-									  
-						
+
+
 
 						  <div class="tab-content">
-						  
-						  
-							<div id="home" class="tab-pane fade in active">					
-							<img src="img/workexp/sage.jpg" style="float:left;width:290px;height:190px;margin:10px;">	
+
+
+							<div id="home" class="tab-pane fade in active">
+							<img src="img/workexp/sage.jpg" style="float:left;width:290px;height:190px;margin:10px;">
 							<div class="text-left">
 							  <h3>Customer Support Technician (intern), Sage</h3>
 							  <p>Sage One Payroll Support Technician.</p>
@@ -540,9 +556,9 @@
 							  <p>Dashboard Reporting.</p>
 							  </div>
 							</div>
-							
+
 							<div id="menu1" class="tab-pane fade">
-							<img src="img/workexp/zara.jpg" style="float:left;width:290px;height:190px;margin:10px;">	
+							<img src="img/workexp/zara.jpg" style="float:left;width:290px;height:190px;margin:10px;">
 							<div class="text-left">
 							  <h3>Sales Assistant, Zara, Dundrum</h3>
 							  <p>Customer service.</p>
@@ -552,43 +568,43 @@
 							  <p>Managing the online Orders.</p>
 							  </div>
 							</div>
-							
-							
-							
+
+
+
 							<div id="menu2" class="tab-pane fade">
-							<img src="img/workexp/tallaght.jpg" style="float:left;width:290px;height:190px;margin:10px;">	
+							<img src="img/workexp/tallaght.jpg" style="float:left;width:290px;height:190px;margin:10px;">
 							<div class="text-left">
 							  <h3>Sales Assistant, Tallaght Auto Parts, Dublin 24</h3>
 							  <p>Customer service : Answering phones, providing online chat support on the company website.</p>
 							  <p>Organising the replenishment stock.</p>
 							  <p>Organising returns.</p>
 							  <p>Managing the website sales : packaging and dispatching the online orders.</p>
-							  <p>Advertising the company through social media : facebook, twitter.</p>	
+							  <p>Advertising the company through social media : facebook, twitter.</p>
 							</div>
 						  </div>
-				
-					
-							
+
+
+
 					</div>
-					  
+
 				</div>
-					
+
                 </div>
             </div>
         </div>
     </section>
-	
-	
+
+
 
     <!-- Achievements Section -->
     <section id="team" class="bg-light-gray">
 	<div class="container">
-        
+
 		<div class="col-lg-12 text-center">
          <h2 class="section-heading">Achievements</h2>
-		
-		 
-	
+
+
+
 		   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -601,16 +617,16 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-	
-	
+
+
       <div class="item">
         <img src="img/ach/ibm.png" style="width:5000px;height:480px;">
 		<h3 class="section-heading"><i>Finished in the Top 14 of an IBM Ethical Hacking Workshop 2015</i></h3>
       </div>
-	  
-	
+
+
       <div class="item active">
-        <img src="img/ach/golf.jpg" style="width:470px;height:480px;">
+        <img src="img/ach/golf.JPG" style="width:470px;height:480px;">
 		<h3 class="section-heading"><i>South County Golf Club Junior Golfer of the Year 2010</i></h3>
       </div>
 
@@ -618,23 +634,23 @@
         <img src="img/ach/leinster.jpg" style="width:470px;height:480px;">
 		<h3 class="section-heading"><i>Achieved playing for the Leinster Schools Development Squad</i></h3>
       </div>
-    
+
       <div class="item">
         <img src="img/ach/marys.jpg" style="width:5000px;height:480px;">
 		<h3 class="section-heading"><i>Shield Winners with St.Marys RFC 2012</i></h3>
-	</div>	
+	</div>
 
       <div class="item">
         <img src="img/ach/talent.jpg" style="width:5000px;height:480px;">
 		<h3 class="section-heading"><i>Old Bawn Community School Talent Show Overall Winners 2013</i></h3>
       </div>
-	  
+
 	  <div class="item">
         <img src="img/ach/obcs.png" style="width:5000px;height:480px;">
 		<h3 class="section-heading"><i>Old Bawn Community School Best Male Student 2008,2011</i></h3>
       </div>
-	  
-	  
+
+
     </div>
 	</div>
 
@@ -648,11 +664,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
-              
-			  
-			
-			        
  </div>
     </section>
 
@@ -700,30 +711,25 @@
                     </form>
                 </div>
             </div>
+			
 			<br></br>
-			<br></br>
-			<div class="row">
-                <div class="col-lg-12 text-center">
-		
-				<a href="http://www.accuweather.com/en/ie/dublin/207931/weather-forecast/207931" class="aw-widget-legal">
+			
+			 <div class="container">
+			<a href="http://www.accuweather.com/en/ie/dublin/207931/weather-forecast/207931" class="aw-widget-legal">
+			</a><div id="awcc1481218438112" class="aw-widget-current"  data-locationkey="207931" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1481218438112"></div>
+			<script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
 
-				</a><div id="awcc1481213091481" class="aw-widget-current"  data-locationkey="207931" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1481213091481"></div>
-				<script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
-				
-				
-				</div>       
-			</div>	
+
 		</div>
         </div>
     </section>
-	
 
 
 
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-	
+
 	    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -734,13 +740,19 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
+    <script type="text/javascript" src="vendor/tipuesearch/tipuesearch_set.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendor/tipuesearch/tipuesearch.css">
+    <script type="text/javascript" src="vendor/tipuesearch/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="vendor/tipuesearch/tipuesearch.min.js"></script>
+
+
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
 </body>
 
 <style>
-.tab-content .tab-pane {    
+.tab-content .tab-pane {
     position: relative;
 }
 </style>
@@ -750,13 +762,16 @@
 
 
 <script>
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {    
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     var target = $(this).attr('href');
 
-    $(target).css('right','-'+$(window).width()+'px');   
+    $(target).css('right','-'+$(window).width()+'px');
     var right = $(target).offset().right;
     $(target).css({right:right}).animate({"right":"0px"}, "10");
 })
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
 </script>
 
 </html>
